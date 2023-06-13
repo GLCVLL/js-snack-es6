@@ -1,3 +1,5 @@
+console.log('SNACK 1');
+
 // Elenco degli invitati fornito da Il grande Gatsby
 const vipGuests = ['Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni', 'Fedez', 'George Clooney', 'Amal Clooney', 'Maneskin'];
 
