@@ -36,7 +36,7 @@ const students = [
     },
     { 
         id: 120, 
-        name: 'Frances of Polenta', 
+        name: 'Francesca da Polenta', 
         grades: 84 
     },
   ];
@@ -48,3 +48,7 @@ console.log('Students with grades above 70:', studentAbove70);
 // studenti con grado maggiore di 70 e id maggiore di 120
 const studentAbove70AndIdAbove120 = students.filter(student => student.grades > 70 && student.id > 120);
 console.log('Students with grades above 70 and id above 120:', studentAbove70AndIdAbove120);
+
+// nome studenti in maiuscolo 
+const capitalizedNames = students.map(student => student.name.toUpperCase());
+console.log('Capitalized names of students:', capitalizedNames);
