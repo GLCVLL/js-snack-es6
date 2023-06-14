@@ -5,7 +5,7 @@ function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// creo array di oggetti squadre di calcio
+// Creo array di oggetti squadre di calcio
 const teams = [
     { name: 'Roma', points: getRandomNumber(0, 100), foulsSoffered: getRandomNumber(0, 40) },
     { name: 'Inter', points: getRandomNumber(0, 100), foulsSoffered: getRandomNumber(0, 40) },
@@ -15,3 +15,9 @@ const teams = [
 ]
 
 console.log(teams);
+
+// Creo nuovo array con nome e falli subiti usando il destructuring
+const newTeams = teams.map(({name, foulsSoffered}) => ({name, foulsSoffered}));
+
+//  Stampo in console 
+console.log(newTeams);
