@@ -39,3 +39,24 @@ Stampare in console la bici con peso minore utilizzando il destructuring
 - stampo in console/ pagina
 
 **END**
+
+
+*** SNACK 4 ***
+
+Creare un array di oggetti di squadre di calcio.
+Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+Generare numeri random al posto degli 0 nelle proprietà punti fatti e falli subiti.
+Infine, usando il destructuring, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
+**START**
+
+- creo una funzione per min e max con numeri random
+- creo array di oggetti di squadre di calcio con:
+  - nome - punti - falli subiti
+  - solo il nome avrà un valore e gli altri due 0
+  - sostituisco lo zero con la funzione che genera numeri random
+- creo nuovo array con .map che con il destructuring prende solo nomi e falli subiti
+- stampo in console/pagina
+
+**END**
