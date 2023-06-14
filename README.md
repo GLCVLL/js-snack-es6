@@ -22,3 +22,20 @@ Id  Name                Grades
 196 Luigi Grimaldello 	    68
 102 Piero della Francesca   50
 120 Francesca da Polenta    84 
+
+
+*** SNACK 3 ***
+
+Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: name e weight.
+Stampare in console la bici con peso minore utilizzando il destructuring
+
+**START**
+
+- creo un array di oggetti
+- l'oggetto descriverà una bici con nome e peso
+- creo variabile di appoggio con il peso della prima bici nell'oggetto
+- creo il ciclo per trovare la bici con il peso minore
+- stampo in console/ pagina
+
+**END**
